@@ -6,7 +6,7 @@ app.use(express.json())//allow for use of req.body
 app.use(require('cors')())
  
 //listen on port 3001
-const port = process.env.PORT || 3001we
+const port = process.env.PORT || 3001
 app.listen(port, () => {
  console.log('the server is listening!')
    routesReport.print()
