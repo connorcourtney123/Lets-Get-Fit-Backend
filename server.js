@@ -5,8 +5,8 @@ const routesReport = rowdy.begin(app)//for rowdy-logger
 app.use(express.json())//allow for use of req.body
 app.use(require('cors')())
  
-//listen on port 3000
-const port = process.env.PORT || 3000
+//listen on port 3001
+const port = process.env.PORT || 3001we
 app.listen(port, () => {
  console.log('the server is listening!')
    routesReport.print()
