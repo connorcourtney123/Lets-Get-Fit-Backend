@@ -62,7 +62,7 @@ workoutController.getUsersWorkouts = async (req, res) =>{
         const cardios = await user.getCardios();
         const strengths = await user.getStrengths();
 
-        res.json({cardios:cardios, strengths: strengths})
+        res.json({cardios: cardios, strengths: strengths})
 
     }catch(error){
         console.log(error)
